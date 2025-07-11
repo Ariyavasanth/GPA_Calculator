@@ -34,7 +34,7 @@ export default function Result({ subjects, onClear }) {
 
         <div className="flex justify-between">
           <p>GPA (Approx): </p>
-          <span className="ml-[75%] text-md font-bold text-black">{gpa}</span>
+          <span className=" text-md font-bold text-black">{gpa}</span>
         </div>
 
         <div className="flex gap-1">
