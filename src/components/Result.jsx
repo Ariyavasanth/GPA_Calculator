@@ -18,28 +18,28 @@ export default function Result({ subjects, onClear }) {
 
   return (
     // max-w-md
-    <div className="bg-white p-4 flex flex-col rounded shadow-md">
+    <div className="bg-white p-4 flex flex-col rounded shadow-[0_-3px_6px_rgba(0,0,0,0.16),_0_3px_6px_rgba(0,0,0,0.23)]">
       <h2 className="text-xl font-bold mb-2">📊 Result Summary</h2>
       <div className="flex flex-col gap-1 text-gray-400">
         <div className="flex justify-between">
           <p className="text-md">Total Marks Scored:</p>
-          <span className="text-md font-bold">
+          <span className="text-md font-bold text-black">
             {totalScored} / {totalMarks}
           </span>
         </div>
         <div className="flex justify-between">
           <p className="text-md">Percentage:</p>
-          <span className="text-md font-bold">{percentage}%</span>
+          <span className="text-md font-bold text-black">{percentage}%</span>
         </div>
 
         <div className="flex justify-between">
           <p>GPA (Approx): </p>
-          <span className="ml-[75%] text-md font-bold">{gpa}</span>
+          <span className="ml-[75%] text-md font-bold text-black">{gpa}</span>
         </div>
 
         <div className="flex gap-1">
           <p className="text-lg font-semi  text-md font-bold">Grade:</p>
-          <span className="text-xl text-black font-bold">{grade}%</span>
+          <span className="text-xl  font-bold text-black">{grade}%</span>
         </div>
       </div>
       <button
